@@ -53,14 +53,14 @@ export const BlogListPage = props => {
                                 </p>
                             )}
                         </div>
-                        {/* 图片封面 */}
+{/*                         图片封面
                         {showPageCover && (
                             <div className="md:w-5/12 w-full overflow-hidden p-1">
                                 <Link href={`${BLOG.SUB_PATH}/${p.slug}`} passHref legacyBehavior>
                                     <div className='h-44 bg-center bg-cover hover:scale-110 duration-200' style={{ backgroundImage: `url('${p?.page_cover}')` }} />
                                 </Link>
                             </div>
-                        )}
+                        )}*/}
                     </article>
                 ))}
             </div>
